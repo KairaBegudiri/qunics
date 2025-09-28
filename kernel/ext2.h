@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-/* ==== Ext2 Superblock (sadece gerekli alanlar) ==== */
+/* ==== Ext2 Superblock ==== */
 struct ext2_superblock {
     uint32_t inodes_count;
     uint32_t blocks_count;
@@ -13,7 +13,7 @@ struct ext2_superblock {
     uint32_t magic;
 };
 
-/* ==== Ext2 Inode (sadeleştirilmiş) ==== */
+/* ==== Ext2 Inode ==== */
 struct ext2_inode {
     uint32_t size;
     uint32_t blocks;
