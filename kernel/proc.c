@@ -6,7 +6,6 @@
 #include "paging.h"
 #include "proc.h"
 
-// Basit bir ELF process başlatıcı
 int proc_exec_from_elf(const char *path) {
     int fd = vfs_open(path, 0);
     if (fd < 0) {
@@ -14,8 +13,7 @@ int proc_exec_from_elf(const char *path) {
         return -1;
     }
 
-    // ELF dosyasını oku
-    uint8_t buf[4096]; // küçük ELF dosyaları için yeterli
+    uint8_t buf[4096];
     int r = vfs_read(fd, buf, sizeof(buf));
     if (r <= 0) {
         kputs("proc: elf load failed\n");
@@ -31,7 +29,6 @@ int proc_exec_from_elf(const char *path) {
         return -1;
     }
 
-    // Kullanıcı moduna geç
     kprintf("proc: jumping to user ELF entry at 0x%x...\n", entry);
     enter_user_mode(entry, pdir);
 
