@@ -8,7 +8,7 @@ Qunics unix-benzeri ***hobi*** projemdir
 
 ## Build iso from source
 ```bash
-git clone https://github.com/KairaBegudiri/qunics-kernel
-cd qunics-kernel
+git clone https://github.com/KairaBegudiri/qunics
+cd qunics
 make run
 ```
