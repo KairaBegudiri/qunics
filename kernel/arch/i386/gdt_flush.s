@@ -5,7 +5,7 @@
 .global gdt_flush
 
 gdt_flush:
-    movl 4(%esp), %eax    # pointer to gdt_ptr
+    movl 4(%esp), %eax    
     lgdt (%eax)
 
     ljmp $0x08, $flush_cs
