@@ -1,1 +1,2 @@
 # QUNICS KERNEL
+unix-like
