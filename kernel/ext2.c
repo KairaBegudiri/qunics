@@ -2,7 +2,6 @@
 #include "kstdio.h"
 #include <stdint.h>
 
-/* Global değişkenler (ileride superblock vs. burada tutulacak) */
 static const void *ext2_image = 0;
 static uint32_t ext2_size = 0;
 
