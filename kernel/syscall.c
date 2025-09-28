@@ -13,7 +13,6 @@ int syscall_dispatch(int num, uint32_t a1, uint32_t a2, uint32_t a3) {
     switch (num) {
     case SYS_WRITE:
         // write(fd, buf, len)
-        // Burada sadece fd = 1 (stdout) destekleniyor
         if ((int)a1 == 1) {
             const char* buf = (const char*)a2;
             for (uint32_t i = 0; i < a3; i++)
