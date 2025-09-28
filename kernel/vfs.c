@@ -23,7 +23,7 @@ void vfs_init() {
 
 /* Dosya açma */
 int vfs_open(const char *path, int flags) {
-    (void)flags; /* şimdilik kullanılmıyor */
+    (void)flags; 
     uint32_t ino;
 
     if (ext2_lookup(path, &ino) != 0) {
