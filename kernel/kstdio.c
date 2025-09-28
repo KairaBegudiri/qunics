@@ -10,7 +10,7 @@
 
 static uint16_t* vga_buffer = (uint16_t*) VGA_ADDRESS;
 static int cursor_x = 0, cursor_y = 0;
-static uint8_t vga_color = 0x07; // gri üzeri siyah
+static uint8_t vga_color = 0x07; 
 
 static void vga_putentryat(char c, uint8_t color, int x, int y) {
     const size_t index = y * VGA_WIDTH + x;
