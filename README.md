@@ -1,5 +1,5 @@
 # QUNICS
-QUNICS is independent UNIX-like operating system kernel (hobby project)
+QUNICS is un*x-like independent operating system. 
 <hr>
 <img width="1600" height="650" alt="Anatinus ve QUNICS" src="https://github.com/user-attachments/assets/942b0d27-63db-44d8-a15b-1924a7e18f97" />
 
