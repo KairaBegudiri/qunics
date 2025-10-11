@@ -17,7 +17,7 @@ Qunics için bağımsız bir userlandi olan, GRUB uyumlu ancak kendine has bootl
 - QOS/QyzylOS, QUNICS'in stabil bir versiyonu çıktıktan sonra geliştirilmeye başlayacak. İleride GNU araçlarıyla da uyumlu olacak bir `Qyzgyl GNU/QUNICS` planımız da var.
 
 - Mevcut QUNICS kerneli, ext2 dosya sistemini deneysel olarak okuyabilir. İleride QUNICS File System (kısaca QFS) adını verdiğimiz bir dosya sistemini oluşturacağım.
-- QyzylOS, 2026'nın sonlarına doğru beta olarak çıkış yapacaktır
+- QyzylOS, 2026'nın sonlarına doğru beta olarak çıkış yapmayı hedeflemektedir
 - QUNICS için işletim sistemi-bağımsız, TempleOS benzeri olan HQWM pencere yöneticimizi entegre edeceğiz. (Bu yazının yazıldığı `10/12/2025 | 2:30 AM` itibariyle HQWM çalışıyor olsa da deneysel olduğundan gizli bir repo altında tutuluyor. Yakınd kaynak kodları GPL-v3 lisansı altında paylaşılacaktır.)
 
 <hr>
