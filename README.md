@@ -5,11 +5,16 @@ QUNICS is un*x-like independent operating system.
 
 ## Screenshots
 <img width="822" height="449" alt="resim" src="https://github.com/user-attachments/assets/0745882c-824d-4c89-afeb-bc059fb07380" />
-QUNICS doesn't have a userland, so this isn't a bug or anything like that; it's expected. QUNICS has the POSIX standard, so a project that includes qunics and a userland (gnu, busybox, or similar) would be perfect.
+
+Yukarıdaki ekran görüntüsü, userlandin olmaması nedeniyle ve elfloaderin hazırlanmamış olması nedeniyle kernel-boot'un ötesine geçememesini gösteren bir ekran görüntüsüdür. 
+Bu, işletim sistemi çekirdeğinin rahatlıkla boot edilebildiğini gösterir. Bu aşamada QUNICS için çalışan bir kernel diyebiliriz. Ancak QUNICS'i kullanan bir host sistemi ne yazık ki henüz yok. 
+Qunics için bağımsız bir userlandi olan, GRUB uyumlu ancak kendine has bootloaderi olan Qyzyl Operating System (kısaca QOS veya QyzylOS)'u geliştirmeye ileri zamanlarda başlayacağız.
 
 ## DevNote
-- Our next goal is to combine the Qunics kernel with a userland (I'm planning to use GNU + Bash) and turn it into an operating system. Since this is for the future, I'm focusing on the kernel for now.
-- After the stable version of the Qunics kernel is released, we plan to develop an operating system that uses the Qunics kernel. This operating system could have a completely independent userland or use only GNU + Bash. In any case, we named it QyzylOS (or Qyzyl GNU/Qunics).
+- Hedefimiz bir userland ve elfloader uyumu sağlamaktır. QUNICS, POSIX standartları ile uyumlu olmaya çalışmayı hedefler
+- QOS/QyzylOS, QUNICS'in stabil bir versiyonu çıktıktan sonra geliştirilmeye başlayacak. İleride GNU araçlarıyla da uyumlu olacak bir `Qyzgyl GNU/QUNICS` planımız da var.
+
+<hr>
 
 ## Build iso from source
 ```bash
