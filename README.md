@@ -18,7 +18,7 @@ Qunics için bağımsız bir userlandi olan, GRUB uyumlu ancak kendine has bootl
 
 - Mevcut QUNICS kerneli, ext2 dosya sistemini deneysel olarak okuyabilir. İleride QUNICS File System (kısaca QFS) adını verdiğimiz bir dosya sistemini oluşturacağım.
 - QyzylOS, 2026'nın sonlarına doğru beta olarak çıkış yapmayı hedeflemektedir
-- QUNICS için işletim sistemi-bağımsız, TempleOS benzeri olan HQWM pencere yöneticimizi entegre edeceğiz. (Bu yazının yazıldığı `10/12/2025 | 2:30 AM` itibariyle HQWM çalışıyor olsa da deneysel olduğundan gizli bir repo altında tutuluyor. Yakınd kaynak kodları GPL-v3 lisansı altında paylaşılacaktır.)
+- QUNICS için işletim sistemi-bağımsız, TempleOS benzeri olan HQWM pencere yöneticimizi entegre edeceğiz. (Bu yazının yazıldığı `10/12/2025 | 2:30 AM` itibariyle HQWM çalışıyor olsa da deneysel olduğundan gizli bir repo altında tutuluyor. Yakında kaynak kodları GPL-v3 lisansı altında paylaşılacaktır.)
 
 <hr>
 
@@ -28,3 +28,10 @@ git clone https://github.com/KairaBegudiri/qunics
 cd qunics
 make run
 ```
+
+<hr>
+
+## Lisans
+Bu proje [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.html) altında lisanslanmıştır.  
+Bu, projenin tüm türev çalışmalarının ve çatallamalarının **aynı lisans (GPLv3)** altında dağıtılması gerektiği anlamına gelir.  
+Lisans ihlalleri, telif hakkı ihlali kapsamına girebilir ve yasal sonuçlar doğurabilir.
