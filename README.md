@@ -32,6 +32,4 @@ make run
 <hr>
 
 ## Lisans
-Bu proje [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.html) altında lisanslanmıştır.  
-Bu, projenin tüm türev çalışmalarının ve çatallamalarının **aynı lisans (GPLv3)** altında dağıtılması gerektiği anlamına gelir.  
-Lisans ihlalleri, telif hakkı ihlali kapsamına girebilir ve yasal sonuçlar doğurabilir.
+Bu proje [GNU General Public License v3.0 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.html) altında lisanslanmıştır.  Bu, projenin tüm türev çalışmalarının ve çatallamalarının **aynı lisans (GPLv3)** altında dağıtılması gerektiği anlamına gelir. Lisans ihlalleri, telif hakkı ihlali kapsamına girebilir ve yasal sonuçlar doğurabilir.
