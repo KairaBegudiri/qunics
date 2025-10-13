@@ -29,6 +29,14 @@ cd qunics
 make run
 ```
 
+### Hos sistemi olarak Fedora kullandık.
+```bash
+sudo dnf install gcc g++ binutils make flex bison m4 \
+                 texinfo gmp-devel mpfr-devel libmpc-devel \
+                 glibc-devel glibc-static kernel-headers \
+                 nasm xorriso mtools dosfstools e2fsprogs
+```
+
 <hr>
 
 ## Lisans
